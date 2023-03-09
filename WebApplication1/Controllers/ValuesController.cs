@@ -70,7 +70,7 @@ namespace WebApplication1.Controllers
             //取出事件类型字段
             string EventType = jToken["EventType"].ToString();
             //这里解密以后取出的这个EventType这个参数对应的就是你所要匹配的事件了具体的事件参数类型可查看钉钉的接口文档
-            //https://open.dingtalk.com/document/org/event-list-1 
+            //https://open.dingtalk.com/document/org/event-list-1
 
 
 
